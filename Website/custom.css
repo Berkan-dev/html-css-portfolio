@@ -234,6 +234,9 @@ a{
 
 #projects{
     position: relative;
+    justify-content: center;
+    margin:2rem;
+    margin-top:400px;
 }
 
 .color-container{
