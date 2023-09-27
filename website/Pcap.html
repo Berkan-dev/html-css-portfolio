@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <ul class="nav justify-content-center custom-navbar">
+        <li class="nav-item">
+            <a class="nav-link custom-font" aria-current="page" href="./index.html#about">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link custom-font" href="./index.html#certs">Certs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link custom-font" href="./index.html#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link custom-font" aria-disabled="true" href="./index.html#contact">Contact</a>
+        </li>
+    </ul>
+
+    <div class="page-content">
+        <p class="section__text__p1">Pcap</p>
+        <h1 class="title">Analyzer</h1>
+        <div class="blog-content">
+        <p>So this was the first tool that  I wrote to analyze pcap files <a target="_blank" href="https://github.com/Berkan-dev/pcap-analyzer-/tree/main">-GitHub link here-
+        </a>
+            But it wasn't enough. It doesn't do anything but calculate the mean value threshold and send IP addresses to Virustotal.
+            
+            Now I am improving this tool by using chat-GPT. Here's what I have done so far</p>
+            <img src="./pcap-pic/Untitled.png" alt="" class="blog-pic">
+            <p>I am now calculating mean values, median values, and standard deviation values on each destination IP, destination port, source IP, and source port.
+
+                Other than that I use the K-mean algorithm for anomaly detection and of course, I applied this on other data</p>
+                <img src="./pcap-pic/Untitled(1).png" alt="" class="blog-pic">
+                <p>Then I used Multidimensional Analysis on destination IP and destination ports</p>
+                <img src="./pcap-pic/Untitled(2).png" alt="" class="blog-pic">
+        </div>
+    </div>
+</body>
+</html>

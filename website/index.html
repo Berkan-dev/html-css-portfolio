@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <ul class="nav justify-content-center custom-navbar">
+        <li class="nav-item">
+            <a class="nav-link custom-font" aria-current="page" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link custom-font" href="#certs">Certs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link custom-font" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link custom-font" aria-disabled="true" href="#contact">Contact</a>
+        </li>
+    </ul>
+    <nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img class="profile-pic" src="./profile-pics/profile-pic-2.jpg" alt="Berkan profile pic">
+                <div class="section__text">
+                    <p class="section__text__p1">Hello I'm</p>
+                    <h1 class="title">Berkan Özelmaci</h1>
+                    <p class="section__text__p2">Cybersecurity enthusiast</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2"
+                            onclick="window.open('https://docs.google.com/document/d/1hYQFmsouDVdgNajtRxfof6TkuOQ3h2ulZ059_kfjgsQ/edit?pli=1')">My
+                            Resume</button>
+                        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                    </div>
+                    <div id="social-container">
+                        <img src="./logo-pics/linkedin.png" alt="My LinedIn Profile" class="icon"
+                            onclick="window.open('https://www.linkedin.com/in/berkan-%C3%B6zelmac%C4%B1/')">
+                        <img src="./logo-pics/github.png" alt="My GitHub Profile" class="icon"
+                            onclick="window.open('https://github.com/Berkan-dev')">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./profile-pics/profile2.jpg" alt="profile picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h1>Education</h1>
+                            <p>Digital Forensics Engineering <br> Junior year</p>
+                        </div>
+                        <div class="text-container">
+                            <p>I am a tech enthusiast currently studying Digital Forensics Engineering at Firat
+                                University.
+                                My primary focus is to work as a SOC analyst.
+                                To gain experience, I am working on homelab projects that simulate corporate and SOC
+                                environments.
+                                Additionally, I am writing simple tools and scripts to improve my Python scripting
+                                skills. I also dabble in bug bounty and API penetration testing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certs">
+            <p class="section__text__p1">My Certifications</p>
+            <h1 class="title"> And Badges</h1>
+            <div class="cert-details-container">
+                <div class="about-containers">
+
+                    <div class="details-container">
+                        <h2 class="certs-sub-title">Defensive</h2>
+                        <div class="artical-container">
+                            <article>
+                                <img src="./cert-pics/cisco_logo_icon_145406.png" alt="cert icon" class="icon">
+                                <h1>Jr Cybersecurity Analyst Career Path</h1>
+                                <p> <a target="_blank"
+                                        href="https://www.credly.com/badges/39291f3f-3ab1-4229-b10d-52b15d52c9cd?source=linked_in_profile">Cisco
+                                        Credly badge</a> </p>
+                            </article>
+                            <article>
+                                <img src="./cert-pics/tryhackme.png" alt="cert icon" class="icon">
+                                <h1>SOC L1</h1>
+                                <p> <a target="_blank"
+                                        href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XH8YGNAVRO.png">TryHackMe
+                                        Cert</a> </p>
+                            </article>
+                            <article>
+                                <img src="./cert-pics/tryhackme.png" alt="cert icon" class="icon">
+                                <h1>Cyber Defence</h1>
+                                <p> <a target="_blank"
+                                        href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-WGYRBQJFYP.png">TryHackMe
+                                        Cert</a> </p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="certs-sub-title">Ofensive</h2>
+                        <div class="artical-container">
+                            <article>
+                                <img src="./cert-pics/tryhackme.png" alt="cert icon" class="icon">
+                                <h1>Jr Penetration Tester</h1>
+                                <p> <a target="_blank"
+                                        href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-BXE8BHSPYT.png">TryHackMe
+                                        Cert</a> </p>
+                            </article>
+                            <article>
+                                <img src="./cert-pics/apisec.png" alt="cert icon" class="icon">
+                                <h1>API Penetration Testing</h1>
+                                <p>
+                                    <a target="_blank"
+                                        href="https://www.credly.com/badges/54776d8f-aa31-44eb-94aa-0104316048a7/linked_in_profile">APISec
+                                        Credly badge</a>
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Check Out My </p>
+            <h1 class="title">Projects</h1>
+            <div class="cert-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="artical-container">
+                        <img src="./project-pics/project.png" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="certs-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='./project-1.html'">
+                            Post
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="artical-container">
+                        <img src="./project-pics/python.jpg" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="certs-sub-title project-title">Pcap Analyzer</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Berkan-dev/pcap-analyzer-')">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='./Pcap.html'">
+                            Post
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="artical-container">
+                        <img src="./project-pics/python2.png" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="certs-sub-title project-title">API Fuzzer</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Berkan-dev/API-fuzzer')">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='./API-Fuzzer.html'">
+                            Post
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="artical-container">
+                        <img src="./project-pics/python3.png" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="certs-sub-title project-title">Scrapper</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Berkan-dev/Github-scrapper')">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='./Scrapper.html'">
+                            Post
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="contact">
+            <p class="section__text__p1"> Get in touch </p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./logo-pics/email.png" alt="email icon" class="icon contact-icon">
+                    <p> <a href="mailto:berkanozelmaci@gmail.com">berkanozelmaci@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./logo-pics/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                    <p> <a href="https://www.linkedin.com/in/berkan-%C3%B6zelmac%C4%B1/">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+    </nav>
+</body>
+
+</html>
